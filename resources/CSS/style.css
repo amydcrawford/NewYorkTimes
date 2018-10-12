@@ -1,4 +1,6 @@
-#header {
+              /* Header information*/
+
+.header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
@@ -11,11 +13,14 @@
   z-index: 1;
   width: 100%;
   height: 80px;
+  justify-content: space-between;
 }
 
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  width: 50%
+  border: 1 px solid black;
 }
 
 .logo span {
@@ -23,8 +28,9 @@
 }
 
 .navigation {
-  padding-left: 40px;
+  display: inline-flex;
   align-items: center;
+  border: 1px solid black;
 }
 
 .navigation a {
@@ -34,4 +40,27 @@
 .navigation span {
   display: inline-block;
   padding: 20px 10px;
+}
+                /*Body information*/
+
+
+
+div {
+  border: 1px solid black;
+}
+.column {
+  display:flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
