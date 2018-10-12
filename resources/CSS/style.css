@@ -69,11 +69,11 @@ div {
 
 .mothertuna {
   display: flex;
-  background-image: url("..\resources\Main Story.png");
+  background-image: url("../resources/MainStory.png");
   width: 630px;
 }
 .Earthspins {
   display: flex;
-  background-image: url("resources\Fall Season.png");
+  background-image: url("resources/FallSeason.png");
 
 }
