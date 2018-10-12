@@ -47,6 +47,9 @@
 div {
   border: 1px solid black;
 }
+.flex-container {
+  display: flex;
+}
 .column {
   display:flex;
   flex-direction: column;
