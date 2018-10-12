@@ -66,3 +66,14 @@ div {
 .column.small {
   width: 240px;
 }
+
+.mothertuna {
+  display: flex;
+  background-image: url("..\resources\Main Story.png");
+  width: 630px;
+}
+.Earthspins {
+  display: flex;
+  background-image: url("resources\Fall Season.png");
+
+}
