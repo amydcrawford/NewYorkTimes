@@ -2,17 +2,17 @@
 
 .header {
   display: flex;
+  position: fixed;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
   border-color: black;
   background-color: white;
-  align-items: center
-  position: fixed;
-  z-index: 1;
+  align-items: center;
   width: 100%;
   height: 80px;
+  margin-top: 0;
   justify-content: space-between;
 }
 
@@ -21,6 +21,7 @@
   align-items: center;
   width: 50%
   border: 1 px solid black;
+  margin-left: 20px;
 }
 
 .logo span {
@@ -42,7 +43,9 @@
 }
                 /*Body information*/
 
-
+div {
+  display: block;
+}
 
 .flex-container {
   display: flex;
@@ -53,9 +56,7 @@
   margin-right: 32px;
 }
 .column.large {
-  display: flex;
   width: 630px;
-  align-items:flex-start;
 }
 
 .column.medium {
@@ -77,10 +78,14 @@
   font-family: Georgia;
   font-weight: bold;
   text-align: left;
+  margin-top: 100px;
 }
 
-.Earthspins {
+.stories {
   display: flex;
+}
+.Earthspins {
+  display: block;
   background-image: url("../FallSeason.png");
   height: 300px;
   width: 300px;
@@ -88,7 +93,7 @@
 }
 
 .camera {
-  display: flex;
+  display: block;
   background-image: url("../HipsterCameraman.png");
   height: 300px;
   width: 300px;
@@ -111,6 +116,15 @@
   width: 300px;
   text-align: center;
 }
+
+.FBI {
+  margin-top: 100px;
+}
+
+.Cookie {
+  margin-top: 100px;
+}
+
     /*Text styles*/
 
 p {
@@ -128,4 +142,10 @@ p {
 
 .mothertuna span {
   font-size: 40px;
+}
+
+h4 .NewsBites{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
 }
